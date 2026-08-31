@@ -6,15 +6,7 @@ Prepared for executive discussions with Tim Lavell (Chief Revenue Officer).
 
 ---
 
-### Core Pillars of Commercial Strategy
-
-* **Co-Sell & Ecosystem Multiplier:** Leverage Siemens Digital Industries Software channel relationships while attaching high-margin Maya HTT custom IP and engineering services.
-* **Deterministic Signal Prospecting:** Identify industrial targets undergoing digital transformation, factory modernizations, or software consolidation signals.
-* **Quantifiable ROI Messaging:** Target enterprise leaders (VP Engineering, VP Manufacturing, CIO) with clear metrics on thermal/structural simulation speedups and downtime mitigation.
-
----
-
-### Repository Overview
+### Repository Contents
 
 | Module | File | Core Strategic Focus |
 | :--- | :--- | :--- |
@@ -22,7 +14,7 @@ Prepared for executive discussions with Tim Lavell (Chief Revenue Officer).
 | **02** | `02_Siemens_Ecosystem_Positioning.md` | Co-sell playbook vs. Ansys, PTC, and standalone AI vendors |
 | **03** | `03_Outreach_and_Executive_Playbook.md` | Outreach copy, discovery frameworks, and objection handling for engineering execs |
 | **04** | `04_90_Day_Execution_Plan.md` | Structured 30-60-90 day plan for Tim Lavell’s revenue organization |
-| **05** | `05_Industrial_AI_ROI_Calculator.py` | CLI tool to demo real-time engineering productivity gains and downtime cost reduction |
+| **05** | `05_BVA_and_Executive_Value_Framework.md` | Simulation velocity gains and operational downtime cost avoidance model |
 | **06** | `06_Signal_Prospecting_Engine.md` | Automated signal-based outbound workflow for industrial accounts |
 | **07** | `07_Enterprise_Deal_Orchestration.md` | Enterprise deal execution framework linking pre-sales engineering, PoC, and procurement |
 | **08** | `08_RevOps_Architecture_and_Salesforce_Data_Model.md` | Systems architecture, object schema, and cross-functional handoffs |
@@ -44,7 +36,7 @@ Prepared for executive discussions with Tim Lavell (Chief Revenue Officer).
 * `07_Enterprise_Deal_Orchestration.md`
 
 **Technical Tooling, RevOps & Analytics**
-* `05_Industrial_AI_ROI_Calculator.py`
+* `05_BVA_and_Executive_Value_Framework.md`
 * `08_RevOps_Architecture_and_Salesforce_Data_Model.md`
 * `09_AI_Vibe_Coding_and_Clay_Automations.py`
 * `10_Forecasting_and_Pipeline_Analytics_Dashboards.md`
