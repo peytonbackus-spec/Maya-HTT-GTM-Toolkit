@@ -27,7 +27,7 @@ flowchart LR
 | **02** | `02_Siemens_Ecosystem_Positioning.md` | Co-sell playbook vs. Ansys, PTC, and standalone AI vendors |
 | **03** | `03_Outreach_and_Executive_Playbook.md` | Outreach copy, discovery frameworks, and objection handling for engineering execs |
 | **04** | `04_90_Day_Execution_Plan.md` | Structured 30-60-90 day plan for Tim Lavell’s revenue organization |
-| **05** | `05_BVA_and_Executive_Value_Framework.md` | Simulation velocity gains and operational downtime cost avoidance model |
+| **05** | `05_Industrial_AI_ROI_Calculator.py` | CLI ROI model: simulation velocity gains and operational downtime cost avoidance |
 | **06** | `06_Signal_Prospecting_Engine.md` | Automated signal-based outbound workflow for industrial accounts |
 | **07** | `07_Enterprise_Deal_Orchestration.md` | Enterprise deal execution framework linking pre-sales engineering, PoC, and procurement |
 | **08** | `08_RevOps_Architecture_and_Salesforce_Data_Model.md` | Systems architecture, object schema, and cross-functional handoffs |
@@ -49,7 +49,36 @@ flowchart LR
 * `07_Enterprise_Deal_Orchestration.md`
 
 **Technical Tooling, RevOps & Analytics**
-* `05_BVA_and_Executive_Value_Framework.md`
+* `05_Industrial_AI_ROI_Calculator.py`
 * `08_RevOps_Architecture_and_Salesforce_Data_Model.md`
 * `09_AI_Vibe_Coding_and_Clay_Automations.py`
 * `10_Forecasting_and_Pipeline_Analytics_Dashboards.md`
+
+---
+
+### Quick Execution
+
+**Interactive CLI Menu**
+
+Clone the repo, then launch the interactive terminal menu to run either script in the toolkit:
+
+```zsh
+git clone https://github.com/peytonbackus-spec/Maya-HTT-GTM-Toolkit.git
+cd Maya-HTT-GTM-Toolkit
+./gtm_menu.sh
+```
+
+**Run a Single Script Directly**
+
+```zsh
+python3 05_Industrial_AI_ROI_Calculator.py
+python3 09_AI_Vibe_Coding_and_Clay_Automations.py
+```
+
+**Run the Test Suite**
+
+Verifies every script in the repo executes cleanly:
+
+```zsh
+python3 test_toolkit.py -v
+```
