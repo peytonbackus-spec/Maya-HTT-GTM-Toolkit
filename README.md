@@ -6,6 +6,19 @@ Prepared for executive discussions with Tim Lavell (Chief Revenue Officer).
 
 ---
 
+### Enterprise Co-Sell & IP Attach Flow
+
+```mermaid
+flowchart LR
+    A[Siemens Channel Co-Sell Lead] --> B[Industrial Signal Scraper]
+    B --> C[Engineering Discovery & Audit]
+    C --> D[BVA Simulation Velocity Model]
+    D --> E[Custom IP & Services Attach]
+    E --> F[Closed Won ARR]
+```
+
+---
+
 ### Repository Contents
 
 | Module | File | Core Strategic Focus |
