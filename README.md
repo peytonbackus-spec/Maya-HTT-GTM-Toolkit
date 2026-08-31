@@ -27,3 +27,7 @@ Prepared for executive discussions with **Tim Lavell (Chief Revenue Officer)**.
 - `05_Industrial_AI_ROI_Calculator.py` - CLI tool to demo real-time engineering productivity gains and downtime cost reduction.
 - `06_Signal_Prospecting_Engine.md` - Automated signal-based outbound workflow for industrial accounts.
 - `07_Enterprise_Deal_Orchestration.md` - Enterprise deal execution framework linking pre-sales engineering, PoC, and procurement.
+
+- `08_RevOps_Architecture_and_Salesforce_Data_Model.md` - Systems architecture, object schema, and cross-functional handoffs.
+- `09_AI_Vibe_Coding_and_Clay_Automations.py` - Python prototype for AI lead enrichment and personalized copy generation.
+- `10_Forecasting_and_Pipeline_Analytics_Dashboards.md` - Executive dashboard specifications and forecasting framework.
