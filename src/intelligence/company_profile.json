@@ -1,0 +1,12 @@
+{
+  "company_name": "Maya HTT",
+  "domain": "mayahtt.com",
+  "ecosystem": "Siemens Digital Industries Software",
+  "core_competencies": ["Digital Twin", "Simcenter", "Thermal/Flow Simulation", "Custom CAE Software"],
+  "target_buyer_personas": [
+    "VP of Engineering",
+    "Chief Engineer",
+    "Head of Simulation / CAE",
+    "PLM Administrator"
+  ]
+}
