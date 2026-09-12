@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: fct_account_gtm_velocity
+    description: "Aggregates pipeline velocity and stage durations per account."
+    columns:
+      - name: account_id
+        description: "Primary key for the account."
+        tests:
+          - unique
+          - not_null
+      - name: avg_stage_duration_days
+        description: "Average days spent in pipeline stages."
+        tests:
+          - not_null
+
+  - name: fct_cac_payback_monthly
+    description: "Monthly CAC payback and GTM efficiency metrics."
+    columns:
+      - name: metric_month
+        tests:
+          - unique
+          - not_null
+      - name: cac_payback_months
+        tests:
+          - not_null

@@ -1,6 +1,6 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 
-# Simplified Airflow DAG definition representing GTM task orchestration sequence
+# Orchestration specification representing the full GTM execution workflow
 DAG_CONFIG = {
     "dag_id": "gtm_signal_to_crm_sync",
     "schedule_interval": "@daily",
