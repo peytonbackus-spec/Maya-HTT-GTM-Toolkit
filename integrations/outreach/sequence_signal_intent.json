@@ -1,0 +1,25 @@
+{
+  "name": "Outbound - Signal Triggered - Executive Job Change",
+  "type": "sequence",
+  "share_type": "shared",
+  "steps": [
+    {
+      "order": 1,
+      "type": "auto_email",
+      "interval_days": 0,
+      "template": "Congrats on the new role at {{company}} - GTM Architecture setup"
+    },
+    {
+      "order": 2,
+      "type": "phone_call",
+      "interval_days": 2,
+      "instructions": "Verify current tech stack & RevOps pain points"
+    },
+    {
+      "order": 3,
+      "type": "linkedin_connect",
+      "interval_days": 3,
+      "instructions": "Send personalized note matching Clay signal enrichment payload"
+    }
+  ]
+}

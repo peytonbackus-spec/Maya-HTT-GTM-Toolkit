@@ -1,0 +1,9 @@
+{
+  "OpportunityId": "{{opp_id}}",
+  "StageName": "Technical Validation",
+  "MEDDPICC_Score__c": 82,
+  "POC_Status__c": "Approved",
+  "Technical_Buyer_Identified__c": true,
+  "Next_Steps__c": "Security Review",
+  "Last_GTM_Automation_Sync__c": "{{current_timestamp}}"
+}
