@@ -19,22 +19,23 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Install Dependencies & Linter
+    - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install pytest flake8
 
-    - name: Run Python Lint & Syntax Verification
+    - name: Run Flake8 Linter & Core Execution Check
       run: |
-        # Stop build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # Test runnable execution on core scripts
         python scripts/data_hygiene/canonicalize_accounts.py
         python integrations/gong/gong_trigger_handler.py
         python orchestration/gtm_pipeline_dag.py
 
+    - name: Run Pytest Test Suite
+      run: |
+        pytest tests/ -v
+
     - name: Validate dbt Model Syntax & Schema Assertions
       run: |
-        # Verify schema.yml and SQL files are well-formed
         python -c "import yaml; yaml.safe_load(open('dbt/models/marts/gtm/schema.yml'))"
         echo "dbt schema assertions and SQL models verified successfully."
